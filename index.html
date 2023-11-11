@@ -32,13 +32,15 @@
               <a class="nav__link" href="#recipes__link">Receitas</a>
             </li>
             <li>
-              <a class="nav__link" href="#">Menu</a>
+              <a class="nav__link" href="#menu__link">Menu</a>
             </li>
             <li>
-              <a class="nav__link" href="#">Reservar uma mesa</a>
+              <a class="nav__link" href="#reservation__link"
+                >Reservar uma mesa</a
+              >
             </li>
             <li>
-              <a class="nav__link" href="#">Contatos</a>
+              <a class="nav__link" href="#about__link">Contatos</a>
             </li>
           </ul>
         </nav>
@@ -58,11 +60,11 @@
         </p>
 
         <div class="header__footer">
-          <li class="header__footer-list">
+          <div class="header__footer-list">
             <p class="header__list-times">Horário de Funcionamento</p>
             <p class="header__list-times">Segunda a sexta (10:00 as 19:00)</p>
             <p class="header__list-times">Sábado a Domingo (11:00 as 18:00)</p>
-          </li>
+          </div>
           <div class="header__address">
             200 Success Avenue, The Town of Triple Peaks
           </div>
@@ -73,18 +75,17 @@
     <div class="page">
       <main class="content">
         <section class="recipes" id="recipes__link">
-          <h2 class="recipes__title">Receitas</h2>
-          <h3 class="recipes__subtitle">
+          <div class="recipes__title">Receitas</div>
+          <div class="recipes__subtitle">
             Confira algumas receitas que coletamos para seu lanchinho caseiro:
-          </h3>
-          <section class="recipes__video">
+          </div>
+          <section class="recipes__videos">
             <div class="recipes__iframe">
               <iframe
                 width="480"
                 height="273"
                 src="https://www.youtube.com/embed/BfDLoIvb0w4?si=-PeRV4bySgbjjOQA"
                 title="The Ultimate Moka Pot Technique (Episode #3)"
-                frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen
               ></iframe>
@@ -93,7 +94,6 @@
                 height="273"
                 src="https://www.youtube.com/embed/st571DYYTR8?si=awc2eapELDnQSweV"
                 title="The Ultimate French Press Technique"
-                frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen
               ></iframe>
@@ -110,9 +110,9 @@
             </section>
           </section>
         </section>
-        <section class="reservation"></section>
-        <section class="menu"></section>
-        <section class="about"></section>
+        <section class="menu" id="#menu__link"></section>
+        <section class="reservation" id="reservation__link"></section>
+        <section class="about" id="about__link"></section>
       </main>
     </div>
 
