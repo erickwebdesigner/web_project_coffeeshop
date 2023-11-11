@@ -1,37 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./vendor/normalize.css">
-    <link rel="stylesheet" href="./pages/index.css">
-    <link rel="shortcut icon" href="favicon.ico">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Noto+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./vendor/normalize.css" />
+    <link rel="stylesheet" href="./pages/index.css" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Noto+Serif:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
     <title>Café</title>
-    <meta name="description" content="Portfolio de Erick Andre no Practicum">
-    <meta name="keywords" content="HTML, CSS, JavaScript">
-    <meta name="author" content="Erick Andre">
-    
-</head>
-<body>
+    <meta name="description" content="Portfolio de Erick Andre no Practicum" />
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <meta name="author" content="Erick Andre" />
+  </head>
+  <body>
     <div class="page">
-        <header class="header"></header>
+      <header class="header">
+        <nav class="nav">
+          <img
+            src="images/logo_coffeeshop_dark.svg"
+            alt="logo_coffeeshop_dark"
+            class="nav__logo"
+          />
+
+          <ul class="nav__links">
+            <li>
+              <a class="nav__link" href="#recipes__link">Receitas</a>
+            </li>
+            <li>
+              <a class="nav__link" href="#">Menu</a>
+            </li>
+            <li>
+              <a class="nav__link" href="#">Reservar uma mesa</a>
+            </li>
+            <li>
+              <a class="nav__link" href="#">Contatos</a>
+            </li>
+          </ul>
+        </nav>
+
+        <img
+          class="header__image"
+          src="images/inside_coffee_shop.png"
+          alt="inside coffee shop"
+        />
+        <span class="header__span-acent">Café especial</span>
+        <h1 class="header__title">na biblioteca Triple Peaks</h1>
+        <p class="header__description">
+          Bem-vindo à nossa zona de estudo! Temos aquele cafezinho para
+        </p>
+        <p class="header__description">
+          energizar você e vibrações aconchegantes para ajudá-lo a ser criativo.
+        </p>
+
+        <div class="header__footer">
+          <li class="header__footer-list">
+            <p class="header__list-times">Horário de Funcionamento</p>
+            <p class="header__list-times">Segunda a sexta (10:00 as 19:00)</p>
+            <p class="header__list-times">Sábado a Domingo (11:00 as 18:00)</p>
+          </li>
+          <div class="header__address">
+            200 Success Avenue, The Town of Triple Peaks
+          </div>
+        </div>
+      </header>
     </div>
 
     <div class="page">
-        <main class="content">
-            <section class="recipes"></section>
-            <section class="reservation"></section>
-            <section class="menu"></section>
-            <section class="about"></section>
-        </main>
+      <main class="content">
+        <section class="recipes" id="recipes__link">
+          <h2 class="recipes__title">Receitas</h2>
+          <h3 class="recipes__subtitle">
+            Confira algumas receitas que coletamos para seu lanchinho caseiro:
+          </h3>
+          <section class="recipes__video">
+            <div class="recipes__iframe">
+              <iframe
+                width="480"
+                height="273"
+                src="https://www.youtube.com/embed/BfDLoIvb0w4?si=-PeRV4bySgbjjOQA"
+                title="The Ultimate Moka Pot Technique (Episode #3)"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+              <iframe
+                width="480"
+                height="273"
+                src="https://www.youtube.com/embed/st571DYYTR8?si=awc2eapELDnQSweV"
+                title="The Ultimate French Press Technique"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <section class="recipes__video-caption">
+              <div class="recipes__video-ultimate">
+                <p>receita aeropress</p>
+                <p>~5min</p>
+              </div>
+              <div class="recipes__video-aero">
+                <p>receita aeropress</p>
+                <p>~15min</p>
+              </div>
+            </section>
+          </section>
+        </section>
+        <section class="reservation"></section>
+        <section class="menu"></section>
+        <section class="about"></section>
+      </main>
     </div>
 
     <div class="page">
-        <footer class="footer"></footer>
+      <footer class="footer"></footer>
     </div>
-    
-</body>
+  </body>
 </html>
