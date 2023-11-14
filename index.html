@@ -114,8 +114,8 @@
         </section>
 
         <section class="reservation" id="reservation__link">
-          <form class="form form__reservation">
-            <section class="reservation__form">
+          <section class="form">
+            <form class="reservation__form">
               <h2 class="reservation__title">Reservar uma mesa</h2>
               <fieldset class="form__fieldset">
                 <label for="name" class="form__label">Nome*</label>
@@ -127,7 +127,7 @@
                   placeholder="Nome"
                   required
                 />
-                <label for="numberofguests" class="form__label"
+                <label for="number" class="form__label"
                   >Número de convidados*</label
                 >
                 <input
@@ -141,9 +141,7 @@
                   required
                 />
 
-                <label for="Dateandtime" class="form__label"
-                  >Data & Hora*</label
-                >
+                <label for="Date" class="form__label">Data & Hora*</label>
                 <input
                   type="datetime-local"
                   class="form__input"
@@ -170,7 +168,6 @@
                     class="form__checkbox-option"
                     id="checkbox"
                     name="checkbox"
-                    placeholder=""
                     checked
                   />
                   <label for="checkbox" class="form__checkbox-terms">
@@ -178,8 +175,8 @@
                   >
                 </div>
               </fieldset>
-            </section>
-          </form>
+            </form>
+          </section>
         </section>
         <section class="menu" id="menu__link"></section>
         <section class="about" id="about__link"></section>
