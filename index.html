@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="stylesheet" href="./pages/index.css" />
     <link rel="shortcut icon" href="favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -18,7 +17,7 @@
     <meta name="author" content="Erick Andre" />
   </head>
   <body>
-    <div class="page">
+     <div class="page">
       <header class="header">
         <nav class="nav">
           <img
@@ -30,7 +29,6 @@
             <li>
               <a class="nav__link" href="#recipes__link">Receitas</a>
             </li>
-            <li></li>
             <li>
               <a class="nav__link" href="#reservation__link"
                 >Reservar uma mesa</a
@@ -40,7 +38,7 @@
               <a class="nav__link" href="#menu__link">Menu</a>
             </li>
             <li>
-              <a class="nav__link" href="#about__link">Contatos</a>
+              <a class="nav__link" href="#footer__link">Contatos</a>
             </li>
           </ul>
         </nav>
@@ -178,13 +176,99 @@
             </form>
           </div>
         </section>
-        <section class="menu" id="menu__link"></section>
-        <section class="about" id="about__link"></section>
+        
+        <section class="menu" id="menu__link">
+        <h2 class="menu__title">Cardápio</h2>
+        <h2 class="menu__sutitle">
+          Preparamos café a partir de grãos torrados localmente com certificação
+          Fairtrade e usamos xícaras biodegradáveis. Todos os chás da nossa
+          coleção custam $2/xícara
+        </h2>
+        
+
+        <section class="menu__cards">
+          <div class="card">
+            <h3 class="card__title">Filtro</h3>
+            <li class="card__list-item">
+              Normal (350 ml)<span class="card__list-divider"></span>$1</li>
+            <li class="card__list-item">
+              Grande (470 ml)<span class="card__list-divider"></span>$1,25</li>
+            <li class="card__list-item"> Extra grande (591,47 mL)<span class="card__list-divider"></span>$1,5</li>
+            <li class="card__list-item">Tamanho do copo (709,76 mL, descafeinado)<span class="card__list-divider"></span>$1,75</li>
+            <li class="card__list-item">Iced Coffee (16 oz)<span class="card__list-divider"></span>$1,25</li>
+          </div>
+
+          <div class="card">
+            <h3 class="card__title">Expresso</h3>
+            <li class="card__list-item">Macchiato<span class="card__list-divider"></span>$2,25</li>
+            <li class="card__list-item">Cortado<span class="card__list-divider"></span>$2,5</li>
+            <li class="card__list-item">Mocha<span class="card__list-divider"></span>$3</li>
+            <li class="card__list-item">Nascer do sol à Beira Mar (descafeinado)
+ <span class="card__list-divider"></span>$10</li>
+          </div>
+
+          <div class="card">
+            <h3 class="card__title">Produtos de Padaria
+            </h3>
+            <li class="card__list-item">Croissant de Amêndoa<span class="card__list-divider"></span>$2</li>
+            <li class="card__list-item">Pão de banana <span class="card__list-divider"></span>$1,75</li>
+            <li class="card__list-item">Torta de Limão <span class="card__list-divider"></span>$3</li>
+            <li class="card__list-item">Bolo veludo azul<span class="card__list-divider"></span>$3,75</li>
+            <li class="card__list-item">Cookie Web<span class="card__list-divider"></span>$2</li>
+            <li class="card__list-item">Baguete Fresco<span class="card__list-divider"></span>$0,25</li>
+          </div>
+        </div>
+        </section>
+        </section>
+
+        <section class="about">
+          <div class="about__circle"></div>
+          <div class="about__circle_animation_blurred"></div>
+          
+          
+          <h2 class="about__title">Sobre o 
+            café</h2>
+          <div class="about__content">
+            <p class="about__paragraph">
+              Nosso café está localizado na Biblioteca Triple Peaks. Possui 6 mesas 
+e Wi-Fi gratuito.
+            </p>
+            <p class="about__paragraph">
+              Nossa principal missão é manter nossos hóspedes confortáveis e 
+energizados.
+            </p>
+            <p class="about__paragraph">
+              Além disso, tentamos reduzir nosso impacto ambiental, logo, não 
+vendemos copos descartáveis. Mas você pode comprar um de nossos 
+copos reutilizáveis!
+            </p>
+            </div>
+          
+          </section>
       </main>
     </div>
 
     <div class="page">
-      <footer class="footer"></footer>
+      <footer class="footer" id="footer__link" >
+        
+        <section class="footer__content">
+          <img class="footer__logo" src="images/logo_coffeeshop_light.svg" alt="Logo logo coffeeshop light">
+          <ul class="footer__list">
+            
+            <h4 class="footer__list footer__social-heading">Midias Sociais</h4>
+            <li class="footer__list-item" id="Facebook__link">
+              <img src="images/facebook_white.svg" alt="logo Facebook" class="footer__social_icon-Facebook">
+            <a class="footer__social-link" href="#Facebook__link">Facebook</a>
+            </li>
+            
+          <li class="foote__list-item" id="Instagram__link">
+            <img src="images/instagram_white.svg" alt="logo Instagram" class="footer__social_icon-Facebook " >
+              <a class="footer__social-link" href="#Instagram__link">Instagram</a>
+              </li>
+          </ul>
+        </section>
+        <div class="footer__copyrigth">© 2023Erick da Silva André</div>
+      </footer>
     </div>
   </body>
 </html>

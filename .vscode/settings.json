@@ -1,6 +1,6 @@
 {
   "editor.formatOnSave": true,
-  "files.autoSave": "onFocusChange",
+  "files.autoSave": "afterDelay",
   "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -19,5 +19,6 @@
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "git.ignoreLimitWarning": true
+  "git.ignoreLimitWarning": true,
+  "liveServer.settings.port": 5501
 }
