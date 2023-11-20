@@ -1,0 +1,104 @@
+.reservation {
+    display: flex;
+    position: relative;
+    background-color: #d9e7ff;
+    background-image: url(../images/background_reservation.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #000000;
+    justify-content: center;
+  }
+  
+  .reservation__title {
+    display: inline-block;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 52px;
+    margin-top: 100px;
+  }
+  
+  .form {
+    display: flex;
+  }
+  
+  .reservation__form {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    margin-top: 80px;
+  }
+  
+  .form__fieldset {
+    display: flex;
+    flex-direction: column;
+    border: 0;
+  }
+  
+  .form__label {
+    display: flex;
+    margin-bottom: 8px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  
+  .form__input {
+    display: flex;
+    max-width: 385px;
+    height: 60px;
+    margin-bottom: 32px;
+    gap: 12px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #838383;
+  }
+  
+  .form__button {
+    max-width: 385px;
+    height: 60px;
+    margin-bottom: 32px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: white;
+    background-color: #2f80ed;
+    transition: 0.4s ease-in;
+  }
+  .form__button:focus {
+    border-radius: 4px;
+  }
+  .form__button:hover {
+    opacity: 70%;
+  }
+  
+  .form__checkbox {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 100px;
+    justify-content: center;
+  }
+  
+  .form__checkbox-option {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .form__checkbox-terms {
+    display: flex;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+  }

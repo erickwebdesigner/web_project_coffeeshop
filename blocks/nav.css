@@ -1,0 +1,24 @@
+.nav__links {
+    display: flex;
+    justify-content: right;
+    top: 30px;
+    left: auto;
+    margin-right: 80px;
+    column-gap: 20px;
+    list-style-type: none;
+    align-items: end;
+  }
+  
+  .nav__link:hover {
+    color: #2F80ED;
+  }
+
+  .nav__link {
+    color: #000000;
+    text-decoration: none;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+  }
