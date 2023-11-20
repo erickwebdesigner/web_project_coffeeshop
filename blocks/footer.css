@@ -37,8 +37,7 @@
       
     
     .footer__list {
-    list-style-type: none;
-    margin-top: 0px;
+    justify-content: center;
     
     }
     
@@ -49,6 +48,10 @@
     margin-bottom: 60px;
     
     }
+
+    .footer__smash{
+      padding: 0px;
+    }
     
     .footer__list-item {
     font-family: "Inter";
@@ -56,15 +59,19 @@
     font-weight: normal;
     font-size: 16px;
     line-height: 20px;
-    
+    list-style-type: none;
+    text-align: center;
+    padding: 0px;
     }
     
-    .foote__social-heading{
+    .footer__social-heading{
     font-family: "Inter";
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
     line-height: 20px;
+    text-align: center;
+    margin-top: 0px;
     }
     
     .footer__social-link{
@@ -79,16 +86,16 @@
         opacity: 50%;
     }
     
-    .footer__social_icon-Facebook {
+    .footer__icon-Facebook {
     width: 16px;
     height: 16px;
-    gap: 10px;    
+    margin-right: 10px;
     }
     
-    .footer__social_icon-Instagram {
+    .footer__icon-Instagram{
         width: 16px;
         height: 16px;
-        gap: 10px;   
+        margin-right: 10px;
     }
     
 
